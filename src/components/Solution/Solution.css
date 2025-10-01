@@ -1,0 +1,54 @@
+.solution-section {
+    text-align: center;
+}
+
+.solution-flow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.flow-step {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.flow-card {
+    background: var(--light-gray);
+    padding: 1.5rem 2rem;
+    border-radius: 8px;
+    border: 2px solid #e0e0e0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 600;
+    min-width: 200px;
+}
+
+.flow-card.main-system {
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+    border-color: var(--primary-color);
+}
+
+.flow-card svg {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.flow-arrow {
+    font-size: 2rem;
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+
+.solution-summary {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+}
